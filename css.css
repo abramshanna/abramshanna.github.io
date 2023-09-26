@@ -404,7 +404,7 @@ video {
 
 .button-right::after {
     display: inline-block;
-    content: url('arrow_right.svg');
+    content: url('images/arrow_right.svg');
     width: 2rem;
     margin-left: 1rem;
     transition: all .4s ease;
@@ -424,7 +424,7 @@ video {
 
 .button-down::after {
     display: inline-block;
-    content: url('arrow_down.svg');
+    content: url('images/arrow_down.svg');
     width: .7rem;
     margin-top: -1rem;
     transition: all .4s ease;
