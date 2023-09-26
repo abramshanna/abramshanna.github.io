@@ -28,10 +28,10 @@ body {
     background-color: #111;
     padding: 0rem 10rem;
     height: 5rem;
-    margin-top: -2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: -2rem;
 }
 
 .nav-menu ul {
@@ -40,7 +40,19 @@ body {
 
 .sticky {
     position: sticky;
-    top: 0;
+    top: 2rem;
+}
+
+.nav-logo {
+    margin-top: 2rem;
+}
+
+.nav-logo img {
+    max-height: 60px;
+}
+
+.nav-logo-mobile {
+    display: none;
 }
 
 /*Text*/
@@ -527,7 +539,7 @@ footer {
     }
 
     a{
-        font-size: 2rem;
+        font-size: 4rem;
     }
 
     h1 {
@@ -612,12 +624,17 @@ footer {
     }
 
     .nav-menu a {
-        font-size: 2rem;
+        font-size: 4rem;
+        line-height: 8rem;
         color: rgb(250, 250, 250);
     }
 
     .nav-logo {
         display: none;
+    }
+
+    .nav-logo-mobile {
+        display: block;
     }
 
     .container {
