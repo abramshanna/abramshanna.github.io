@@ -166,10 +166,6 @@ li:last-child {
     margin: 0;
 }
 
-.box > h1, .box > h2, .box > h3, .box > h4 {
-    margin-bottom: 0;
-}
-
 .overlap-box > h1, .overlap-box > h2, .overlap-box > h3, .overlap-box > h4 {
     margin-bottom: 0;
 }
@@ -537,6 +533,11 @@ footer {
     .margin {
         margin: 0;
     }
+    
+    .container {
+        padding: 2.5rem 5rem;
+    }
+
     /*Text*/
     p {
         font-size: 2rem;
@@ -563,13 +564,13 @@ footer {
         margin-bottom: 2rem;
     }
     h4 {
-        font-size: 4rem;
-        line-height: 5rem;
+        font-size: 2rem;
+        line-height: 4rem;
         margin-bottom: 2rem;
     }
     h5 {
-        font-size: 4rem;
-        line-height: 5rem;
+        font-size: 2rem;
+        line-height: 3rem;
         margin-bottom: 2rem;
     }
     .subheading {
@@ -577,6 +578,19 @@ footer {
         line-height: 7rem;
         margin-bottom: 2rem;
     }
+
+    /**Boxes**/
+
+    .small-box {
+        padding: 4rem;
+    }
+
+    .small-box p {
+        font-size: 2rem;
+        line-height: 0;
+    }
+
+    /**Menu**/
 
     .button-menu {
         display: inline-block;
@@ -642,7 +656,17 @@ footer {
         display: block;
     }
 
-    .container {
+    /*Footer**/
+
+    .footer {
         padding: 2.5rem 5rem;
+    }
+
+    .footer > p {
+        font-size: 2rem;
+    }
+
+    .footer-link {
+        display: none;
     }
 }
