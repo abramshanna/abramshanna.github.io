@@ -271,6 +271,25 @@ a > .box {
     font-size: .8rem;
 }
 
+.link-box {
+    padding: 2rem;
+    border-radius: 0.2rem;
+    background-color: #222;
+    margin-bottom: 1rem;
+    transition: all ease 200ms;
+    align-items: center;
+}
+
+.link-box:hover {
+    background-color: #333;
+    transform: translateY(-.25rem);
+    transition: all ease 200ms;
+}
+
+.link-box > h3 {
+    margin: 0;
+}
+
 /*Margins*/
 
 .container {
@@ -590,8 +609,12 @@ footer {
         line-height: 0;
     }
 
-    /**Menu**/
+    .link-box {
+        display: block;
+        padding: 4rem;
+    }
 
+    /**Menu**/
     .button-menu {
         display: inline-block;
         visibility: visible;
