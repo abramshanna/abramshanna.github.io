@@ -17,7 +17,7 @@ body {
     letter-spacing: 0.1rem;
     line-height: 2rem;
     color: #fff;
-    background: #0E0E0E;
+    background: #101010;
     width: 100%;
     padding: 0;
     margin: 0 auto;
@@ -29,7 +29,7 @@ body {
 
 /* Menu */
 .nav-menu {
-    background-color: #0E0E0E;
+    background-color: #101010;
     padding: 0rem 10rem;
     height: 5rem;
     display: flex;
@@ -68,6 +68,11 @@ body {
     margin: 0;
     padding: 0;
     margin-bottom: 3rem;
+}
+
+.title-overlap {
+    color: #222;
+    margin: 0;
 }
 
 .subheading {
@@ -112,7 +117,7 @@ h4 {
 }
 
 h5 {
-    color: rgb(100, 100, 100);
+    color: #555;
     font-size: 1rem;
     font-weight: 600;
     line-height: 2rem;
@@ -133,13 +138,13 @@ a {
     font-size: .8rem;
     font-weight: 600;
     line-height: 4rem;
-    color: #fff;
+    color: #ddd;
     text-decoration: none;
     transition: 200ms;
 }
 
 a:hover {
-    color: #8386ff;
+    color: #fff;
 }
 
 ul {
@@ -160,11 +165,6 @@ li:last-child {
     padding-right: 0;
 }
 
-.title-overlap {
-    color: #8386ff;
-    margin: 0;
-}
-
 .overlap-box > h1, .overlap-box > h2, .overlap-box > h3, .overlap-box > h4 {
     margin-bottom: 0;
 }
@@ -172,13 +172,13 @@ li:last-child {
 /*Boxes*/
 
 .div-hover:hover .overlap-box {
-    background-color: #333;
+    background-color: #222;
     transform: translateY(-1rem);
     transition: all ease 200ms;
 }
 
 .div-hover:hover .box {
-    background-color: #333;
+    background-color: #222;
     transform: translateY(1rem);
     transition: all ease 200ms;
 }
@@ -193,7 +193,7 @@ li:last-child {
 }
 
 .box:hover {
-    background-color: #151515;
+    background-color: #222;
     transform: translateY(-.25rem);
     transition: all ease 200ms;
 }
@@ -221,7 +221,7 @@ a > .box {
 }
 
 .big-box:hover {
-    background-color: #1d1d1d;
+    background-color: #222;
     transform: translateY(-.25rem);
     transition: all ease 200ms;
 }
@@ -243,7 +243,7 @@ a > .box {
 }
 
 .overlap-box:hover {
-    background-color: #1d1d1d;
+    background-color: #222;
     transform: translateY(1rem);
     transition: all ease 200ms;
 }
@@ -251,7 +251,7 @@ a > .box {
 .small-box {
     padding: 1rem;
     border-radius: .2rem;
-    background-color: #8386ff;
+    background-color: #151515;
     margin-bottom: .5rem;
     display: inline-block;
     transition: all ease 200ms;
@@ -259,7 +259,7 @@ a > .box {
 }
 
 .small-box:hover {
-    background-color: #8a8cff;
+    background-color: #222;
     transform: translateY(-.25rem);
     transition: all ease 200ms;
 }
