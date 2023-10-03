@@ -131,10 +131,6 @@ p {
     margin-bottom: 1rem;
 }
 
-p+p {
-    margin-top: 1rem;
-}
-
 a {
     font-size: .8rem;
     font-weight: 600;
