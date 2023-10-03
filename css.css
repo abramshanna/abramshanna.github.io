@@ -332,6 +332,11 @@ a>.box {
     padding: 5rem;
 }
 
+.padding-4 {
+    padding: 4rem;
+}
+
+
 .padding-2 {
     padding: 2rem;
 }
@@ -635,7 +640,7 @@ footer {
     }
 
     p {
-        font-size: 2rem;
+        font-size: 1rem;
     }
 
     a {
@@ -700,6 +705,10 @@ footer {
     .small-box p {
         font-size: 2rem;
         line-height: 0;
+    }
+
+    .overlap-box {
+        padding: 4rem;
     }
 
     .link-box {
