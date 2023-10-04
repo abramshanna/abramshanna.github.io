@@ -12,18 +12,133 @@
     <meta charset="utf-8" />
     <title>Abrams Hanna - Game Designer</title>
 </head>
+
 <body>
     <header class="sticky">
+        <button id="button-menu" class="button-menu">
+            <div id="bar1"></div>
+            <div id="bar2"></div>
+        </button>
+        <nav id="menu" class="nav-menu">
+            <div class="nav-logo-mobile">
+                <a href="landing.html"><img src="images/nav_logo.png"></a>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <a href="about.html">
+                            About me
+                        </a>
+                    </li>
+                    <li>
+                        <a href="projects.html">
+                            My projects
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-logo">
+                <a href="landing.html"><img src="images/nav_logo.png"></a>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/abramshanna/" target="_blank"
+                            rel="noopener noreferrer"><img src="">Linkedin</a>
+                    </li>
+                    <li>
+                        <a href="contact.html"><img src="">Contact me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <section>
         <div class="container">
             <div class="flex-div align-items-center justify-content-space-between margin">
-                <div class="col-1 s-col-1 z-1 display-flex flex-direction-column" data-aos="fade-left" data-aos-duration="1000">
+                <div class="col-4 s-col-1 z-1 s-margin-bottom" data-aos="fade-left"
+                    data-aos-duration="1000">
                     <div>
-                        <h1>Coming soon</h1>
-                        <h2 class="subheading">..this page is under construction.</h2>
-                        <p>Thanks for your patience!</p>
+                        <h1 class="title title-overlap">Abrams</h1>
+                        <h1 id="name" class="title">Hanna;</h1>
+                        <h2 class="subheading">an aspiring game designer.</h2>
                     </div>
+                    <div>
+                        <p>Hey there! I'm Hanna, feel free to check out my page.</p>
+                    </div>
+                    <div>
+                        <a href="about.html" class="button button-right">More about me</a>
+                    </div>
+                </div>
+                <div class="col-3 s-col-1 s-margin-bottom" data-aos="fade-up" data-aos-duration="1000">
+                    <img class="flex-img" src="images/title.gif">
+                </div>
+                <div class="col-2 s-col-1" data-aos="fade-down" data-aos-duration="1000">
+                    <a href="#project-section" class="button button-down">Discover my work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="project-section">
+        <div class="container">
+            <div class="flex-div margin">
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <div class="flex-div justify-content-space-between overflow-hidden big-box s-margin-bottom">
+                        <div class="col-5 s-col-1 flex-div align-items-center">
+                            <div class="padding-4">
+                                <h2>Little Cosmos</h2>
+                                <h3 class="subheading">a venture into space</h3>
+                                <p>A game project focusing on gameplay, prototyping, UI design and level design.</p>
+                                <a href="littlecosmos.html" class="button button-right">View project</a>
+                            </div>
+                        </div>
+                        <div class="col-5 s-col-1 overlay-image-container">
+                            <img class="flex-img underlay-image" src="images/littlecosmos/littlecosmos.gif">
+                            <img class="flex-img overlay-image" src="images/littlecosmos/littlecosmos_title.png">
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <div class="flex-div justify-content-space-between overflow-hidden big-box s-margin-bottom">
+                        <div class="col-5 s-col-1 flex-div align-items-center">
+                            <div class="padding-4">
+                                <h2>Epilogue</h2>
+                                <h3 class="subheading">between life and death</h3>
+                                <p>Coming soon.</p>
+                                <a href="404.html" class="button button-right">View project</a>
+                            </div>
+                        </div>
+                        <div class="col-5 s-col-1 overlay-image-container">
+                            <img class="flex-img underlay-image" src="images/epilogue/epilogue.gif">
+                            <img class="flex-img overlay-image" src="images/epilogue/epilogue_title.png">
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <div class="flex-div justify-content-space-between overflow-hidden big-box s-margin-bottom">
+                        <div class="col-5 s-col-1 flex-div align-items-center">
+                            <div class="padding-4">
+                                <h2>Ocean Buddie</h2>
+                                <h3 class="subheading">swimmie and landie</h3>
+                                <p>Coming soon.</p>
+                                <a href="404.html" class="button button-right">View project</a>
+                            </div>
+                        </div>
+                        <div class="col-5 s-col-1 overlay-image-container">
+                            <img class="flex-img underlay-image" src="images/oceanbuddie/oceanbuddie.gif">
+                            <img class="flex-img overlay-image" src="images/oceanbuddie/oceanbuddie_title.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="flex-div margin">
+                <div class="col-1 s-col-1" data-aos="fade-left" data-aos-duration="1000">
+                    <h3>Want to see more?</h3>
+                    <a href="projects.html" class="button button-right">All my projects</a>
                 </div>
             </div>
         </div>
@@ -31,6 +146,17 @@
     <footer>
         <div class="footer">
             <p>© 2023. All rights reserved.</p>
+            <div>
+                <ul>
+                    <li>
+                        <a class="footer-link" href="https://www.linkedin.com/in/abramshanna/" target="_blank"
+                            rel="noopener noreferrer"><img>Linkedin</a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="contact.html"><img>Contact me</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -38,4 +164,5 @@
         AOS.init();
     </script>
 </body>
+
 </html>
