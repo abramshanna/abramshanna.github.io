@@ -580,6 +580,18 @@ footer {
     background-color: #FD3E3E;
 }
 
+.epilogue-dark-purple {
+    background-color: #9D5BDF;
+}
+
+.epilogue-purple {
+    background-color: #BD82F9;
+}
+
+.epilogue-light-purple {
+    background-color: #E1C3FF;
+}
+
 .font-example {
     font-size: 3rem;
     margin-bottom: 2rem;
@@ -591,6 +603,15 @@ footer {
 
 .righteous {
     font-family: 'Righteous', sans-serif;
+}
+
+.silkscreen {
+    font-family: 'Silkscreen', cursive;
+}
+
+.silkscreen-bold {
+    font-family: 'Silkscreen', cursive;
+    font-weight: 700;
 }
 
 /* Responsive */
