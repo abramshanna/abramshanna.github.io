@@ -568,6 +568,8 @@ footer {
 
 .footer p {
     font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
 }
 
 /*Custom Colors and Fonts*/
