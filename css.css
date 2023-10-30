@@ -594,6 +594,10 @@ footer {
     background-color: #E1C3FF;
 }
 
+.oceanbuddie-blue {
+    background-color: #00FFFF;
+}
+
 .font-example {
     font-size: 3rem;
     margin-bottom: 2rem;
@@ -614,6 +618,14 @@ footer {
 .silkscreen-bold {
     font-family: 'Silkscreen', cursive;
     font-weight: 700;
+}
+
+.caveat {
+    font-family: 'Caveat', cursive;
+}
+
+.gloriahallelujah {
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 /* Responsive */
