@@ -24,6 +24,16 @@ body {
     min-height: 100vh;
 }
 
+
+pre {
+    padding: 0;
+    margin: 0;
+}
+
+code {
+    white-space: pre-wrap;
+}
+
 .d-none {
     display: none !important;
 }
