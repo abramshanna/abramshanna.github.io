@@ -5,6 +5,15 @@ document.addEventListener("DOMContentLoaded", function(){
   document.querySelectorAll('.button-collapsible').forEach(item => {
     item.addEventListener('click', buttonCollapsible)
   });
+  document.querySelectorAll('.modal-img').forEach(item => {
+    item.addEventListener('click', openModal)
+  });
+  document.querySelectorAll('.button-modal').forEach(item => {
+    item.addEventListener('click', closeModal)
+  });
+  document.querySelectorAll('.modal').forEach(item => {
+    item.addEventListener('click', modalCloseModal)
+  });
 });
 
 /* End Copyright Oxy 2022 © */
@@ -37,4 +46,18 @@ function buttonCollapsible() {
     } else {
       content.style.maxHeight = content.scrollHeight + "px";
     } 
+}
+
+function openModal(){
+  var content = this.nextElementSibling;
+  content.style.display = 'block';
+}
+
+function closeModal(){
+  var modal = this.parentElement.parentElement;
+  modal.style.display = 'none';
+}
+
+function modalCloseModal(){
+  this.style.display = 'none';
 }
