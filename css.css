@@ -679,6 +679,26 @@ footer {
 
 /*Custom Colors and Fonts*/
 
+.light-color{
+    color: #151515;
+}
+
+.light-color:hover{
+    color: #fff;
+}
+
+.dark-color{
+    color: #fff;
+}
+
+.dark-color:hover{
+    color: #fff;
+}
+
+.laststop-white{
+    background-color: #fff;
+}
+
 .little-cosmos-yellow {
     background-color: #FFD363;
 }
@@ -706,6 +726,14 @@ footer {
 .font-example {
     font-size: 3rem;
     margin-bottom: 2rem;
+}
+
+.kosugi {
+    font-family: 'Kosugi', sans-serif;
+}
+
+.cascadia-code {
+    font-family: 'Cascadia Code', monospace;
 }
 
 .audiowide {
