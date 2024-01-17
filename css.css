@@ -809,7 +809,7 @@ footer {
     }
 
     /*Text*/
-
+    /*
     body {
         line-height: 4em;
     }
@@ -860,7 +860,7 @@ footer {
     }
 
     /*Buttons*/
-
+    /*
     .button-right::after {
         width: 4rem;
     }
@@ -873,7 +873,7 @@ footer {
     }
 
     /*Boxes*/
-
+    /*
     .small-box {
         padding: 4rem;
     }
@@ -965,10 +965,10 @@ footer {
     .footer {
         padding: 2.5rem;
     }
-
+    /*
     .footer p {
         font-size: 2rem;
-    }
+    }*/
 
     .footer-link {
         display: none;
