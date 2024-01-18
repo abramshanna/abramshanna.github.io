@@ -801,62 +801,53 @@ footer {
     }
 
     .container {
-        padding: 2.5rem 5rem;
+        padding: 2.5rem;
     }
 
     .s-margin-bottom {
         margin-bottom: 2.5rem;
     }
 
+    .padding-4 {
+        padding: 2rem;
+    }
+
     /*Text*/
-    /*
-    body {
-        line-height: 4em;
-    }
 
-    p {
-        font-size: 1rem;
-    }
-
-    a {
-        font-size: 2rem;
-    }
-
-    h1 {
-        font-size: 8rem;
-    }
-
-    h2 {
-        font-size: 6rem;
-    }
-
-    h3 {
+    .title {
         font-size: 4rem;
     }
 
-    h4 {
+    .subheading {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
         font-size: 2rem;
     }
 
+    h4 {
+        font-size: 1rem;
+    }
+
     h5 {
-        font-size: 2rem;
+        font-size: 1rem;
     }
 
     h1, h2, h3, h4, h5 {
         line-height: 1em;
     }
 
-    .title {
-        font-size: 10rem;
-    }
-
-    .subheading {
-        font-size: 2rem;
-    }
-
     .font-example {
-        font-size: 6rem;
-        margin-bottom: 4rem;
+        font-size: 2rem;
     }
 
     /*Buttons*/
@@ -947,8 +938,6 @@ footer {
     }
 
     .nav-menu a {
-        font-size: 4rem;
-        line-height: 8rem;
         color: rgb(250, 250, 250);
     }
 
@@ -958,6 +947,7 @@ footer {
 
     .nav-logo-mobile {
         display: block;
+        max-height: 60%;
     }
 
     /*Footer*/
@@ -965,10 +955,6 @@ footer {
     .footer {
         padding: 2.5rem;
     }
-    /*
-    .footer p {
-        font-size: 2rem;
-    }*/
 
     .footer-link {
         display: none;
