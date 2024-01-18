@@ -819,22 +819,27 @@ footer {
 
     .title {
         font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .title-overlap {
+        margin-bottom: 0;
     }
 
     .subheading {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     h1 {
-        font-size: 4rem;
+        font-size: 3rem;;
     }
 
     h2 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     h3 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     h4 {
@@ -851,6 +856,12 @@ footer {
 
     .font-example {
         font-size: 2rem;
+    }
+
+    /*Boxes*/
+
+    .content-box {
+        padding: 2rem;
     }
 
     /*Menu*/
