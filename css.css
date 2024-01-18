@@ -24,6 +24,9 @@ body {
     min-height: 100vh;
 }
 
+section {
+    overflow: hidden;
+}
 
 pre {
     padding: 0;
@@ -819,7 +822,7 @@ footer {
     }
 
     .subheading {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     h1 {
@@ -850,40 +853,8 @@ footer {
         font-size: 2rem;
     }
 
-    /*Buttons*/
-    /*
-    .button-right::after {
-        width: 4rem;
-    }
-
-    .button-down::after {
-        width: 1.4rem;
-        margin-top: 1rem;
-        display: block;
-        margin: 0 auto;
-    }
-
-    /*Boxes*/
-    /*
-    .small-box {
-        padding: 4rem;
-    }
-
-    .small-box p {
-        font-size: 2rem;
-        line-height: 0;
-    }
-
-    .overlap-box {
-        padding: 4rem;
-    }
-
-    .link-box {
-        display: block;
-        padding: 4rem;
-    }
-
     /*Menu*/
+
     .button-menu {
         display: inline-block;
         visibility: visible;
