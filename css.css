@@ -864,6 +864,11 @@ footer {
         padding: 2rem;
     }
 
+    .link-box {
+        display: block;
+        padding: 2rem;
+    }
+
     /*Menu*/
 
     .button-menu {
