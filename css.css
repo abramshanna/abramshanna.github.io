@@ -657,6 +657,34 @@ button:hover {
     z-index: 3;
 }
 
+.button-pagenav {
+    display: inline-block;
+    border-radius: .2rem;
+    background-color: #151515;
+    padding: 1rem;
+    margin-bottom: .5rem;
+    transition: all .4s ease;
+}
+
+.button-pagenav:hover {
+    background-color: #222;
+    padding-right: 2rem;
+    transition: all .4s ease;
+}
+
+.button-pagenav::after {
+    display: inline-block;
+    content: url('images/arrow_small_right.svg');
+    width: .6rem;
+    margin-left: 1rem;
+    transition: all .4s ease;
+}
+
+.button-pagenav:hover::after {
+    transform: translateX(1rem);
+    transition: all .4s ease;
+}
+
 /* Footer */
 footer {
     margin-top: auto;
