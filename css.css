@@ -66,7 +66,7 @@ code {
 }
 
 .nav-logo {
-    margin-top: 1rem;
+    margin-top: 0rem;
 }
 
 .nav-logo img {
@@ -75,6 +75,7 @@ code {
 
 .nav-logo-mobile {
     display: none;
+    margin-bottom: 2rem;
 }
 
 /*Text*/
@@ -932,8 +933,8 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        transform: translate3d(100rem, 0, 0);
-        transition: all .4s ease-in-out;
+        transform: translate3d(100%, 0, 0);
+        transition: all .8s ease-in-out;
     }
 
     .menu-open {
