@@ -14,6 +14,8 @@ document.addEventListener("DOMContentLoaded", function(){
   document.querySelectorAll('.modal').forEach(item => {
     item.addEventListener('click', modalCloseModal)
   });
+  document.querySelectorAll('.filter-box').forEach(item => {
+    item.addEventListener('change', filterBox)});
 });
 
 /* End Copyright Oxy 2022 © */
@@ -60,4 +62,53 @@ function closeModal(){
 
 function modalCloseModal(){
   this.style.display = 'none';
+}
+
+function filterBox() {
+  const arrayGameDesign = document.querySelectorAll(".game-design");
+  const arrayWebDesign = document.querySelectorAll(".web-design");
+  const arrayGraphicDesign = document.querySelectorAll(".graphic-design");
+  const arrayUIDesign = document.querySelectorAll(".ui-design");
+  const arrayAll = document.querySelectorAll(".ui-design , .game-design , .web-design , .graphic-design");
+
+  if (this.id != 'show-all') {
+    if (document.getElementById("show-all").checked) {
+      document.getElementById("show-all").checked = false;
+      arrayAll.forEach(item => {item.classList.toggle("d-none");})
+    }
+  
+    if (this.id == 'game-design') {
+      arrayGameDesign.forEach(item => {item.classList.toggle("d-none");})
+      console.log (this.id);
+    }
+  
+    if (this.id == 'web-design') {
+      arrayWebDesign.forEach(item => {item.classList.toggle("d-none");})
+      console.log (this.id);
+    }
+  
+    if (this.id == 'graphic-design') {
+      arrayGraphicDesign.forEach(item => {item.classList.toggle("d-none");})
+      console.log (this.id);
+    }
+  
+    if (this.id == 'ui-design') {
+      arrayUIDesign.forEach(item => {item.classList.toggle("d-none");})
+      console.log (this.id);
+    }
+  }
+
+  else if (document.getElementById("show-all").checked)  {
+      document.getElementById("game-design").checked = false;
+      document.getElementById("web-design").checked = false;
+      document.getElementById("graphic-design").checked = false;
+      document.getElementById("ui-design").checked = false;
+      
+      arrayAll.forEach(item => {if (item.classList.contains("d-none")){item.classList.toggle("d-none");}})
+    
+  }
+
+  else {
+    arrayAll.forEach(item => {item.classList.toggle("d-none");})
+  }
 }
