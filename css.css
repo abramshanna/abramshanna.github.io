@@ -829,6 +829,22 @@ footer {
     background-color: #00FFFF;
 }
 
+.galway-orange {
+    background-color: #FF8250;
+}
+.galway-green {
+    background-color: #00B464;
+}
+
+.galway-blue {
+    background-color: #46AAD2;
+}
+
+.galway-red {
+    background-color: #F0463C;
+}
+
+
 .font-example {
     font-size: 3rem;
     margin-bottom: 2rem;
