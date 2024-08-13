@@ -374,6 +374,32 @@ a>.box {
     cursor: default;
 }
 
+.new-box {
+    border-radius: .2rem;
+    background-color: #151515;
+    margin-top: -5rem;
+    margin-bottom: 5rem;
+    margin-right: -5rem;
+    transition: all ease 200ms;
+    cursor: default;
+    z-index: 1;
+}
+
+.new-box-img {
+    transition: all ease 200ms;
+}
+
+.new-box-hover:hover .new-box {
+    background-color: #222;
+    transform: translateX(1rem);
+    transition: all ease 200ms;
+}
+
+.new-box-hover:hover .new-box-img {
+    transform: translateX(-1rem);
+    transition: all ease 200ms;
+}
+
 
 .big-box {
     border-radius: .2rem;
@@ -710,6 +736,7 @@ button:hover {
     display: inline-block;
     content: url('images/arrow_down.svg');
     width: .7rem;
+    margin-top: .5rem;
     transition: all .4s ease;
 }
 
