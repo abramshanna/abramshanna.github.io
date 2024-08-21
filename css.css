@@ -910,6 +910,10 @@ footer {
     font-family: 'Gloria Hallelujah', cursive;
 }
 
+.timesnewroman {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 /* Responsive */
 @media screen and (max-width: 1700px) {
     .margin {
