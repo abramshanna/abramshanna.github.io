@@ -81,21 +81,25 @@ code {
 /*Text*/
 
 .title {
-    font-size: 8rem;
+    font-size: 4rem;
     font-weight: 600;
-    line-height: 0.5em;
     margin: 0;
     padding: 0;
-    margin-bottom: 3rem;
 }
 
 .title-overlap {
-    color: #222;
-    margin: 0;
+    font-weight: 400;
+}
+
+.title-indent {
+    margin-left: 10rem;
 }
 
 .subheading {
     font-size: 1.6rem;
+    font-weight: 400;
+    max-width: 60%;
+    margin-top: 2rem;
 }
 
 .bold {
