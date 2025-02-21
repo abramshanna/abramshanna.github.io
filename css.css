@@ -13,7 +13,7 @@ body {
     font-weight: 400;
     letter-spacing: 0.1rem;
     line-height: 2em;
-    color: #fff;
+    color: #eee;
     background: #101010;
     width: 100%;
     padding: 0;
@@ -98,7 +98,7 @@ code {
 .subheading {
     font-size: 1.6rem;
     font-weight: 400;
-    max-width: 60%;
+    max-width: 75%;
     margin-top: 2rem;
 }
 
@@ -728,7 +728,33 @@ button:hover {
     transition: all .4s ease;
 }
 
+.button-right-round {
+    padding: 0.5rem 1rem;
+    background-color: #151515;
+    border-radius: .2rem;
+    transition: all .4s ease;
+}
+
 .button-right:hover::after {
+    transform: translateX(1rem);
+    transition: all .4s ease;
+}
+
+.button-right-round:hover {
+    background-color: #222;
+    padding-right: 2rem;
+    transition: all .4s ease;
+}
+
+.button-right-round::after {
+    display: inline-block;
+    content: url('images/arrow_right.svg');
+    width: 2rem;
+    margin-left: 1rem;
+    transition: all .4s ease;
+}
+
+.button-right-round:hover::after {
     transform: translateX(1rem);
     transition: all .4s ease;
 }
