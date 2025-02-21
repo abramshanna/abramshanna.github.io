@@ -976,7 +976,7 @@ footer {
     /*Text*/
 
     .title {
-        font-size: 4rem;
+        font-size: 2rem;
         margin-bottom: 2rem;
     }
 
@@ -984,8 +984,13 @@ footer {
         margin-bottom: 0;
     }
 
+    .title-indent {
+        margin-left: 5rem;
+    }
+
     .subheading {
         font-size: 1.5rem;
+        max-width: none;
     }
 
     h1 {
