@@ -107,14 +107,14 @@ code {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 600;
     margin: 0;
     padding: 0;
 }
 
 h2 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 600;
     margin: 0;
     padding: 0;
@@ -985,7 +985,7 @@ footer {
     }
 
     .title-indent {
-        margin-left: 5rem;
+        margin-left: 2rem;
     }
 
     .subheading {
