@@ -1,11 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 17.66 50" style="enable-background:new 0 0 17.66 50;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#FAFAFA;}
-</style>
-<rect x="-15.24" y="22.07" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 32.8974 15.2374)" class="st0" width="48.13" height="4"/>
-<rect x="5.58" y="42.17" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 51.4196 67.034)" class="st0" width="12.5" height="4"/>
-<rect x="-0.42" y="42.17" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 -21.2721 79.5215)" class="st0" width="12.5" height="4"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 17.66 50">
+  <!-- Generator: Adobe Illustrator 29.7.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 8)  -->
+  <rect x="6.83" y="0" width="4" height="48.13"/>
+  <rect x="5.57" y="42.17" width="12.5" height="4" transform="translate(-27.77 21.3) rotate(-45)"/>
+  <rect x="3.84" y="37.92" width="4" height="12.5" transform="translate(-29.52 17.06) rotate(-45)"/>
 </svg>
