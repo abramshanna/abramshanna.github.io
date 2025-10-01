@@ -233,12 +233,12 @@ li:last-child {
     content: url('images/arrow_small_right.svg');
     width: .6rem;
     margin-left: 1rem;
-    transition: all .4s ease;
+    transition: all 200ms ease;
 }
 
 .button-collapsible:hover::after {
     transform: translateX(1rem);
-    transition: all .4s ease;
+    transition: all 200ms ease;
 }
   
 .active, .button-collapsible:hover {
@@ -247,7 +247,7 @@ li:last-child {
 
 .button-collapsible.active::after{
     transform: translateX(1rem) rotate(90deg);
-    transition: all .4s ease;
+    transition: all 200ms ease;
 }
 
 .collapsible-content {
@@ -719,7 +719,7 @@ button:hover {
     height: .6rem;
     width: 2rem;
     margin-left: 1rem;
-    transition: all .4s ease;
+    transition: all 200ms ease;
 
     background-color: #222;
     -webkit-mask: url("data:image/svg+xml,%3Csvg id='Layer_1' xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 50 17.66'%3E%3Crect y='6.83' width='48.13' height='4'/%3E%3Crect x='42.17' y='-.42' width='4' height='12.5' transform='translate(8.81 32.94) rotate(-45)'/%3E%3Crect x='37.91' y='9.83' width='12.5' height='4' transform='translate(4.57 34.69) rotate(-45)'/%3E%3C/svg%3E") no-repeat center / contain;
@@ -737,19 +737,19 @@ button:hover {
     background-color: #c2bcff;
     box-shadow: .5rem .5rem 1rem 0 #22222220;
     border-radius: 10rem;
-    transition: all .4s ease;
+    transition: all 200ms ease;
 }
 
 .button-right:hover::after {
     transform: translateX(1rem);
-    transition: all .4s ease;
+    transition: all 200ms ease;
     background-color: #c2bcff;
 }
 
 .button-right-round:hover {
     background-color: #222;
     padding-right: 2rem;
-    transition: all .4s ease;
+    transition: all 200ms ease;
 }
 
 .button-right-round::after {
@@ -758,7 +758,7 @@ button:hover {
     height: .6rem;
     width: 2rem;
     margin-left: 1rem;
-    transition: all .4s ease;
+    transition: all 200ms ease;
 
     background-color: #222;
     -webkit-mask: url("data:image/svg+xml,%3Csvg id='Layer_1' xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 50 17.66'%3E%3Crect y='6.83' width='48.13' height='4'/%3E%3Crect x='42.17' y='-.42' width='4' height='12.5' transform='translate(8.81 32.94) rotate(-45)'/%3E%3Crect x='37.91' y='9.83' width='12.5' height='4' transform='translate(4.57 34.69) rotate(-45)'/%3E%3C/svg%3E") no-repeat center / contain;
@@ -772,7 +772,7 @@ button:hover {
 
 .button-right-round:hover::after {
     transform: translateX(1rem);
-    transition: all .4s ease;
+    transition: all 200ms ease;
     background-color: #c2bcff;
 }
 
@@ -788,7 +788,7 @@ button:hover {
     display: inline-block;
     width: .6rem;
     height: 2rem;
-    transition: all 0.4s ease;
+    transition: all 0200ms ease;
 
     background-color: #222;
     -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 17.66 50'%3E%3Crect x='6.83' y='0' width='4' height='48.13'/%3E%3Crect x='5.57' y='42.17' width='12.5' height='4' transform='translate(-27.77 21.3) rotate(-45)'/%3E%3Crect x='3.84' y='37.92' width='4' height='12.5' transform='translate(-29.52 17.06) rotate(-45)'/%3E%3C/svg%3E") no-repeat center / contain;
@@ -801,7 +801,7 @@ button:hover {
 
 .button-down:hover::after {
     transform: translateY(1rem);
-    transition: all .4s ease;
+    transition: all 200ms ease;
     background-color: #c2bcff;
 }
 
@@ -826,13 +826,13 @@ button:hover {
     box-shadow: .5rem .5rem 1rem 0 #22222220;
     padding: 1rem;
     margin-bottom: .5rem;
-    transition: all .4s ease;
+    transition: all 200ms ease;
 }
 
 .button-pagenav:hover {
     background-color: #222;
     padding-right: 2rem;
-    transition: all .4s ease;
+    transition: all 200ms ease;
 }
 
 .button-pagenav::after {
@@ -842,7 +842,7 @@ button:hover {
     height: 1rem;
     vertical-align: middle;
     margin-left: 1rem;
-    transition: all .4s ease;
+    transition: all 200ms ease;
     background-color: #222;
 
     -webkit-mask: url("data:image/svg+xml,%3Csvg id='Layer_1' xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 17.66 17.66'%3E%3Cg id='Layer_2'%3E%3Crect x='6.82' y='-.41' width='4' height='12.5' transform='translate(-1.55 7.95) rotate(-45)'/%3E%3Crect x='2.58' y='9.83' width='12.5' height='4' transform='translate(-5.78 9.71) rotate(-45)'/%3E%3C/g%3E%3C/svg%3E") no-repeat center / contain;
@@ -856,7 +856,7 @@ button:hover {
 
 .button-pagenav:hover::after {
     transform: translateX(1rem);
-    transition: all .4s ease;
+    transition: all 200ms ease;
     background-color: #c2bcff;
 }
 
@@ -864,7 +864,7 @@ button:hover {
     display: inline-block;
     padding: .5rem 1rem;
     border-radius: 10rem;
-    transition: all .4s ease;
+    transition: all 200ms ease;
     background: linear-gradient(to left, #eeeeee00 50%, #222 50%);
     background-size: 200% 100%;
     background-position:right bottom;
@@ -880,13 +880,13 @@ button:hover {
     display: inline-block;
     border-radius: 10rem;
     padding: .5rem 1rem;
-    transition: all .4s ease;
+    transition: all 200ms ease;
 }
 .button-pop:hover {
     background-color: #222;
     box-shadow: .5rem .5rem 1rem 0 #22222220;
     transform: translateY(-.25rem);
-    transition: all .4s ease;
+    transition: all 200ms ease;
 }
 
 /* Footer */
@@ -1140,7 +1140,7 @@ footer {
         height: .2rem;
         background-color: rgb(250, 250, 250);
         margin: .2rem 0;
-        transition: .4s;
+        transition: 200ms;
     }
 
     .change-bar1 {
