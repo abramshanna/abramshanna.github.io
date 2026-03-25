@@ -102,6 +102,10 @@ code {
     font-weight: 600;
 }
 
+.color {
+    color: #ddff46;
+}
+
 h1 {
     font-size: 4rem;
     font-weight: 600;
@@ -584,6 +588,10 @@ a>.box {
 
 .align-self-end {
     align-self: end;
+}
+
+.align-self-start {
+    align-self: flex-start;
 }
 
 .flex-direction-column {
